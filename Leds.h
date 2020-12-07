@@ -1,8 +1,3 @@
-/************************************************************/
-/* Didier Petitjean le 31/10/2019/2019                      */
-/* Commande les leds de l'alphabot                          */
-/*  BTS SN                                                  */
-/************************************************************/
 #pragma once
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
