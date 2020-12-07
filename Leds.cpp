@@ -1,12 +1,6 @@
-/************************************************************/
-/* Didier Petitjean le 31/10/2019/2019                      */
-/* Commande des leds de l'alphabot                       */
-/*  BTS SN                                                  */
-/************************************************************/
+
 #include "Leds.h"
 #include "constantes.h"
-//#include <Arduino.h>
-
 
 Leds::Leds()
 {
@@ -44,10 +38,7 @@ void Leds::eteint()
     RGB->setPixelColor(3, 0x000000);
     RGB->show();    
 }
-/********************************************************/
-/* Change la couleur de la led par la nouvelle couleur  */
-/* couleur doit être passée sous la forme 0xRRGGBB      */
-/* RR allant de 0 (éteint à FF pleine couleur           */
+
 void Leds::changeCouleur(int led, int couleur)
 {
    RGB->setPixelColor(led, couleur);
