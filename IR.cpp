@@ -1,8 +1,3 @@
-/************************************************************/
-/* Didier Petitjean le 31/10/2019/2019                      */
-/* Utilisa les capteurs IR (PCF8574) l'alphabot         */
-/*  BTS SN                                                  */
-/************************************************************/
 #include "IR.h"
 #include "constantes.h"
 //#include <Arduino.h>
@@ -11,9 +6,7 @@ IR::IR()
 {
     Wire.begin();
 }
-/***************************************************/
-/* Retourne vrai si le capteur détecte un obstacle */
-/* sinon faux                                      */
+
 bool IR::obstacle()
 {
   byte valeur;
