@@ -1,8 +1,3 @@
-/************************************************************/
-/* Didier Petitjean le 28/10/2019/2019                      */
-/* Commande des moteurs de l'alphabot                       */
-/*  BTS SN                                                  */
-/************************************************************/
 #include "Moteur.h"
 #include "constantes.h"
 #include <Arduino.h>
