@@ -1,3 +1,3 @@
 # Alpha-Bot
 
-`Bot using Arduino and Raspberry. (source code)` 
+Bot using Arduino and Raspberry. (source code)
